@@ -76,7 +76,7 @@ body {
     background-color: white;
     box-shadow: 0px 15px 65px 0px rgba(15,15,16,0.15);
 }
-@media(min-width:400px) {
+@media(min-width:410px) {
     .img img{
         max-width: 821px;
     }
