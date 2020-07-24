@@ -81,7 +81,7 @@ body {
         max-width: 821px;
     }
 }
-@media(max-width:100px) {
+@media(max-width:400px) {
     .img {
         display: inline-block;
     }
