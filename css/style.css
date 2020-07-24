@@ -86,7 +86,7 @@ body {
         display: inline-block;
     }
     .img img{
-        width: 340px;
+        max-width: 340px;
     }
 }
 .information {
