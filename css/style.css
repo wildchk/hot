@@ -41,6 +41,7 @@ body {
     background: url(../images/background.png) no-repeat 50% 150px #e8e8e8;
 }
 
+
 .wrapper {
     max-width: 841px;
     padding: 125px 0 137px 0;
@@ -71,14 +72,22 @@ body {
 
 
 .img {
-    width: 841px;
     padding: 10px;
     background-color: white;
     box-shadow: 0px 15px 65px 0px rgba(15,15,16,0.15);
 }
-.img img{
-    max-width: 821px;
-    max-height: 541px;
+@media(min-width:841px) {
+    .img img{
+        max-width: 821px;
+    }
+}
+@media(max-width:840px) {
+    .img {
+        display: inline-block;
+    }
+    .img img{
+        max-width: 590px;
+    }
 }
 .information {
     max-width: 736px;
